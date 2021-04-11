@@ -1,0 +1,41 @@
+= Vue Spring Full Auth APP
+
+=== Vue-Spring-Auth
+
+This is a basic app allowing fullstack application development for SpringBoot and VueJS with authentication.
+Login, Register, and management of different Roles and authorithies are found there.
+
+=== INSTALLATION
+
+To install and run this project follow these steps:
+
+. Clone this repository
+
+. Install Gradle Dependency
+
+. Go to (src/main/frontend) and  run "npm install" command to compile the frontend
+
+=== RUN THE PROJECT
+
+. Go to (src/main/frontend) and  run "npm run serve". The app will start on port 8080
+
+. Go to (src/main/java/com/auth/template/demo/) und start the Spring Boot Rest Api with "DemoApplication.java" as main class (The api will
+start on port 8090)
+
+=== Default Users for Login
+image:/images/users.png?raw=true[Default users]
+
+. You can find the default users in the TestUser.java class (src/main/java/com/auth/template/demo/scopes/user/entities/TestUser.java)
+
+. You can also register and navigate on the App
+
+
+=== Example
+
+image:/images/register.png?raw=true[screen1]
+
+image:/images/login.png?raw=true[screen1]
+
+image:/images/profile.png?raw=true[screen1]
+
+image:/images/front-back.png?raw=true[screen1]
